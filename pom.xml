@@ -20,7 +20,8 @@
 		</plugins>
 	</build>
 
-	<dependencies><!--
+	<dependencies>
+		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -65,12 +66,6 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<version>9.5.0</version>
 			<scope>compile</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>SeleniumCRMGUIFramework</groupId>
-			<artifactId>Maven123</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
