@@ -43,7 +43,7 @@ public class CreateOrder extends BaseClass {
 		chkPage.enterShipDetails();
 
 		boolean res = chkPage.wbtExcelAndVerify();
-		
+
 		Assert.assertEquals(res, true);
 
 	}
