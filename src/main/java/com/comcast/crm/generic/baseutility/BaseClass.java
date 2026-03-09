@@ -19,6 +19,7 @@ import com.comcast.crm.generic.webdriverutility.JavaUtility;
 import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
 import com.comcast.crm.objectrepositoryutility.LandingPage;
 import com.comcast.crm.objectrepositoryutility.SignInPage;
+import com.demowebshop.generic.utilityclassobject.UtilityClassobject;
 
 public class BaseClass {
 	public WebDriver driver = null;
@@ -44,6 +45,7 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(timeOutInt));
 		driver.get(URL);
+		UtilityClassobject.setDriver(driver);
 
 	}
 
