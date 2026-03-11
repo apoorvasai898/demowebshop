@@ -1,4 +1,4 @@
-package com.comcast.crm.objectrepositoryutility;
+package com.demowebshop.objectrepositoryutility;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

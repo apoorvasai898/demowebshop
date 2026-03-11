@@ -7,15 +7,15 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import com.comcast.crm.generic.baseutility.BaseClass;
 import com.comcast.crm.generic.fileutility.ExcelUtility;
 import com.comcast.crm.generic.fileutility.FileUtility;
-import com.comcast.crm.objectrepositoryutility.CheckOutPage;
-import com.comcast.crm.objectrepositoryutility.CommonElements;
-import com.comcast.crm.objectrepositoryutility.ComputerPage;
-import com.comcast.crm.objectrepositoryutility.DesktopsPage;
-import com.comcast.crm.objectrepositoryutility.LandingPage;
-import com.comcast.crm.objectrepositoryutility.ShoppingCartPage;
+import com.demowebshop.generic.baseutility.BaseClass;
+import com.demowebshop.objectrepositoryutility.CheckOutPage;
+import com.demowebshop.objectrepositoryutility.CommonElements;
+import com.demowebshop.objectrepositoryutility.ComputerPage;
+import com.demowebshop.objectrepositoryutility.DesktopsPage;
+import com.demowebshop.objectrepositoryutility.LandingPage;
+import com.demowebshop.objectrepositoryutility.ShoppingCartPage;
 
 @Listeners(com.demowebshop.listenerImplementation.LIstenerImplementationClass.class)
 public class CreateOrder extends BaseClass {

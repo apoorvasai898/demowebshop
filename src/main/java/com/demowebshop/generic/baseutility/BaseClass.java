@@ -1,4 +1,4 @@
-package com.comcast.crm.generic.baseutility;
+package com.demowebshop.generic.baseutility;
 
 import java.io.IOException;
 import java.time.Duration;
@@ -17,9 +17,9 @@ import com.comcast.crm.generic.fileutility.FileUtility;
 import com.comcast.crm.generic.fileutility.JSONUtility;
 import com.comcast.crm.generic.webdriverutility.JavaUtility;
 import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
-import com.comcast.crm.objectrepositoryutility.LandingPage;
-import com.comcast.crm.objectrepositoryutility.SignInPage;
 import com.demowebshop.generic.utilityclassobject.UtilityClassobject;
+import com.demowebshop.objectrepositoryutility.LandingPage;
+import com.demowebshop.objectrepositoryutility.SignInPage;
 
 public class BaseClass {
 	public WebDriver driver = null;
